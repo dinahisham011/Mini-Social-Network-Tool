@@ -10,6 +10,9 @@ An interactive desktop application for analyzing and visualizing social network 
   - Work with both directed and undirected graphs loaded from CSV files
 Built with Python (NetworkX, Matplotlib, Tkinter) for researchers and data analysts exploring complex network data.
 
+# Demo:
+ ![Demo](https://github.com/dinahisham011/Mini-Social-Network-Tool/tree/main/assets/Demo.gif?raw=true)
+
 # Features:
   - Custom node/edge attributes (size, color, label, shape)
   - Multiple layout algorithms (force-directed, radial, etc.)
