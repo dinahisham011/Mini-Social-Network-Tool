@@ -11,7 +11,8 @@ An interactive desktop application for analyzing and visualizing social network 
 Built with Python (NetworkX, Matplotlib, Tkinter) for researchers and data analysts exploring complex network data.
 
 # Demo:
- ![Demo](https://github.com/dinahisham011/Mini-Social-Network-Tool/tree/main/assets/Demo.gif?raw=true)
+
+![Demo](https://github.com/dinahisham011/Mini-Social-Network-Tool/raw/main/assets/Demo.gif)
 
 # Features:
   - Custom node/edge attributes (size, color, label, shape)
@@ -78,3 +79,11 @@ python src/main.py
     ``` id, Label(any attributes more or less)```
   - edges.csv should contain:
     ``` source, target```
+
+# Notes to consider before running the Tool:
+  - The ```Note That:``` section in the GUI is specific for the primaryschool data only which is provided in Dataset folder
+  - To run Community Detection method without errors make sure that line 92 in ```Community.py``` file is modified to suite your ```nodes.csv``` data
+  ```
+id_to_class = dict(zip(self.nodes_df['ID'], self.nodes_df['Label']))
+```
+Label must be any attribute from ```nodes.csv``` other tha ID
